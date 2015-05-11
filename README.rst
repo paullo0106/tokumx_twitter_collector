@@ -68,7 +68,7 @@ Execute the collector
 
   tail -f collector.log  #  check the log for the progress of data collecting in real-time
 
-collector.log will record the content of tweet we collects and how the program runs, an example is shown as below:
+collector.log will record the content of tweet we collects and how the program runs, an example is shown as below (the data are changed since I don't want to spread out other's tweets without permission):
 
 ::
 
@@ -123,12 +123,12 @@ collector.log will record the content of tweet we collects and how the program r
   Thread-3 DEBUG 2015-04-19 18:16:27 inserted tweet (id: 58379738254179655680) #gaycivilrights CASE= CONSTITUTIONALviolations THAT led2 HAVNG big data cloud JointCust butNOT beingABLE 2C Spencer 4nearly 2YEARS
   Thread-3 DEBUG 2015-04-19 18:16:27 inserted tweet (id: 54389738252074094594) #gaycivilrights CASE= CONSTITUTIONALviolations THAT led2 HAVNG big data cloud JointCust butNOT beingABLE 2C Spencer 4nearly 2YEARS
   Thread-3 INFO 2015-04-19 18:16:27 Worker #1 has finished processing 4 tweets.
-  MainThread DEBUG 2015-04-19 18:17:08 searching Barack+Obama......
+  MainThread DEBUG 2015-04-19 18:17:08 searching Big+Data......
   ...
   ...
 
 
-We can also use pymongo api to check the data we saved in the mongodb:
+We can also use pymongo api to check the data we saved in the mongodb (again, the data are modified purposely since I don't want to spread out other's tweets without permission):
 
 ::  
 
